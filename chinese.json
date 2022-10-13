@@ -141,7 +141,7 @@
     "Upscaling": "图像高清化选项/Upscaling",
     "Tile size for ESRGAN upscalers. 0 = no tiling.": "ESRGAN图像放大器的图块大小,0=不平铺/Tile size for ESRGAN upscalers. 0 = no tiling.",
     "Tile overlap, in pixels for ESRGAN upscalers. Low values = visible seam.": "贴图重叠范围,以ESRGAN图像放大器的像素为单位,低值=可见接缝/Tile overlap, in pixels for ESRGAN upscalers. Low values = visible seam.",
-    "Select which Real-ESRGAN models to show in the web UI. (Requires restart)": "Real-ESRGAN x4+\", \"Real-ESRGAN x4+ Anime 6B\"], \"选择要在WebUI中显示的RealESRGAN模型(需要重启)/Select which Real-ESRGAN models to show in the web UI. (Requires restart)",
+    "Select which Real-ESRGAN models to show in the web UI. (Requires restart)": "选择要在WebUI中显示的RealESRGAN模型(需要重启)/Select which Real-ESRGAN models to show in the web UI. (Requires restart)",
     "Tile size for all SwinIR.": "无缝拼接图像尺寸来自SwinIR模型/Tile size for all SwinIR.",
     "Tile overlap, in pixels for SwinIR. Low values = visible seam.": "贴图重叠范围,拼接像素来自SwinIR模型,低值=可见接缝/Tile overlap, in pixels for SwinIR. Low values = visible seam.",
     "LDSR processing steps. Lower = faster": "LDSR处理步数,低步数=高速度/LDSR processing steps. Lower = faster",
@@ -221,7 +221,7 @@
     "CodeFormer visibility": "面部重建程度/CodeFormer visibility",
     "CodeFormer weight (0 = maximum effect, 1 = minimum effect)": "面部重建权重(0=最大效果,1=最小效果)/CodeFormer weight (0 = maximum effect, 1 = minimum effect)",
     "Result": "结果/Result",
-    "A merger of the two checkpoints will be generated in your <b>checkpoint</b> directory.</p>": "<p>两个模型的合并将生成在<b>模型</b>目录中/A merger of the two checkpoints will be generated in your <b>checkpoint</b> directory.</p>",
+    "A merger of the two checkpoints will be generated in your <b>checkpoint</b> directory.</p>": "两个模型的合并将生成在<b>模型</b>目录中/A merger of the two checkpoints will be generated in your <b>checkpoint</b> directory.</p>",
     "Primary Model Name": "主要模型名称/Primary Model Name",
     "Secondary Model Name": "辅助模型名称/Secondary Model Name",
     "Custom Name (Optional)": "自定义名称(可选)/Custom Name (Optional)",
@@ -289,7 +289,7 @@
   },
   "scripts/sd_upscale.py": {
     "SD upscale": "SD模式放大/SD upscale",
-    "width和高度/height滑块设置图块大小/Will upscale the image to twice the dimensions; use width and height sliders to set tile size</p>": ">将图像尺寸提升2倍;使用宽度/width和高度/height滑块设置图块大小/Will upscale the image to twice the dimensions; use width and height sliders to set tile size</p>"
+    "Will upscale the image to twice the dimensions; use width and height sliders to set tile size</p>": ">将图像尺寸提升2倍;使用宽度/width和高度/height滑块设置图块大小/Will upscale the image to twice the dimensions; use width and height sliders to set tile size</p>"
   },
   "scripts/xy_grid.py": {
     "Nothing": "无/Nothing",
@@ -308,7 +308,7 @@
     "Sigma max": "Sigma最大/Sigma max",
     "Sigma noise": "Sigma噪点/Sigma noise",
     "Denoising": "去噪/Denoising",
-    "Y图/X/Y plot": "X/Y图/X/Y plot",
+    "X/Y plot": "X/Y图/X/Y plot",
     "X type": "X类型/X type",
     "X values": "X值/X values",
     "Y type": "Y类型/Y type",
