@@ -9,7 +9,7 @@ for file,value in map.items():
     with open(file,"r",encoding = "utf-8") as f:
         code=f.read()
     for old,new in value.items():
-        code.replace(old,new)
+        code=code.replace(old,new)
         dovalue += 1
     with open(file,"w",encoding = "utf-8") as f:
         f.write(code)
